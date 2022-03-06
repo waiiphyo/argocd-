@@ -15,7 +15,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: waiphyo997/nginx:latest
+      - image: nginx
         imagePullPolicy: Always
         name: nginx
         ports:
